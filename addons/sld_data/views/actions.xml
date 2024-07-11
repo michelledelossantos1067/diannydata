@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.actions.act_window" id="sld_data.action_window">
+      <field name="name">sld_data window</field>
+      <field name="res_model">sld_data.sld_data</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+</odoo>
