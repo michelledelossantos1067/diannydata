@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="sld_data.list">
+      <field name="name">sld_data list</field>
+      <field name="model">sld_data.sld_data</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="nombre"/>
+          <field name="apellido"/>
+          <field name="correo"/>
+          <field name="direccion" />
+        </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>

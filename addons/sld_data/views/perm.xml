@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <!-- server action to the one above -->
+
+    <record model="ir.actions.server" id="sld_data.action_server">
+      <field name="name">sld_data server</field>
+      <field name="model_id" ref="model_sld_data_sld_data"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+
+
+</odoo>
